@@ -1,0 +1,6 @@
+for other detections' unlearning, just replace:
+
+detection_name = "{your detection method}"
+detected_idx_path = "{path to the detect_idx file}"
+
+all the other code stays the same so we don't include them here to save space
