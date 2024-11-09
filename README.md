@@ -1,7 +1,7 @@
 # delta-influence
 This repository contains code implementation for the paper: 
 
-<u>**Using Influence Functions to Unlearn Poisons**</u>
+***Using Influence Functions to Unlearn Poisons***
 
 You can follow the below step-by-step guideline to replicate our experiments on "cifar10+badnet". 
 
@@ -15,7 +15,7 @@ conda activate delta-influence-env
 pip install -e .
 ```
 
-*Credits: We utilize the [Kronfluence](https://github.com/pomonam/kronfluence) to calculate influence matrix and the [Corrective-Unlearning-Bench](https://github.com/pomonam/kronfluence) for unlearning, so please make sure you have them installed before moving on*
+*Credits: We utilize the [Kronfluence](https://github.com/pomonam/kronfluence) to calculate influence matrix and the [Corrective-Unlearning-Bench](https://github.com/drimpossible/corrective-unlearning-bench) for unlearning, so please make sure you have them installed before moving on*
 
 ### Prepare the poisoned dataset
 "poison_dataset.ipynb" shows how to inject badnet poison into the cifar10 dataset and also provides training scripts to get the victim model
