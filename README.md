@@ -26,7 +26,7 @@ pip install -e .
 Besides, we also provide implementations of other popular detection methods, as well as the threshold baseline mentioned in the paper: 
 - [*Activation Clustering*](https://arxiv.org/abs/1811.03728)
 - [*Spectral Signature*](https://arxiv.org/abs/1811.00636)
-- [*Frequency Analysis*](https://github.com/YiZeng623/frequency-backdoor)
+- [*Frequency Analysis*](https://arxiv.org/abs/2104.03413) (built based on https://github.com/YiZeng623/frequency-backdoor)
 - *Influence Threshold*
 
 To check the ablation studies, relavant notebooks can be found named "modify_images.ipynb" and "modify_labels.ipynb"
