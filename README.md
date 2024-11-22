@@ -1,11 +1,11 @@
 # delta-influence
 This repository contains code implementation for the paper: 
 
-***Using Influence Functions to Unlearn Poisons***
+***Delta-Influence: Unlearning Poisons via Influence Functions***
 
-You can follow the below step-by-step guideline to replicate our experiments on "cifar10+badnet". 
+You can follow the below step-by-step guideline to replicate our experiments on "cifar10+badnet" which includes all code for attack, detection, unlearning and eval. 
 
-Notebooks for other "{dataset}+{attack}" will be updated soon, but essentially they are similar so you can definitely try some different datasets, attack methods and unlearn algorithms:)
+Notebooks for other "{dataset}+{attack}" will be updated in the future, (currently we provide "cifar10+badnet", "cifar100+frequency attack, "imagenette+witches' brew") but essentially they are similar so you can definitely try some different datasets, attack methods and unlearn algorithms:)
 
 ## Example
 ### Setup
