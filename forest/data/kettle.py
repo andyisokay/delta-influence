@@ -117,7 +117,7 @@ class Kettle():
 
         ##############################
         """
-        self.save_poison_idx_path = '/data/andy_lee/github/poisoning-gradient-matching/poisons/saved_p_idx.npy'
+        self.save_poison_idx_path = '/data/xxx/github/poisoning-gradient-matching/poisons/saved_p_idx.npy'
         self.poison_idx_saved = np.zeros(500)
         self.poison_count = 0
         """
@@ -606,7 +606,7 @@ class Kettle():
             """
             # also, save all clean training images to another folder  (parser.add_argument('--poison_path', default='poisons/', type=str))
             print("saving all clean training images...")
-            # --data_path '/data/andy_lee/github/poisoning-gradient-matching/detect_vault/exp01/data'
+            # --data_path '/data/xxx/github/poisoning-gradient-matching/detect_vault/exp01/data'
             cleans_path = data_path + '/full_cleans'
             # os.makedirs(cleans_path, exist_ok=True)
             
